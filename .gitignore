@@ -1,0 +1,24 @@
+# Local Environment Variables (Crucial for security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python virtual environment
+backend/venv/
+api/venv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node dependencies & React build outputs
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
